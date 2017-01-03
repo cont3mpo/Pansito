@@ -1,0 +1,356 @@
+/* Estilos Base */
+
+body, form input {
+	font-family: "Open Sans", sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+h2 {
+	font-size: 34px;
+	font-weight: 300;
+	color: #454545;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	color: #545454;
+}
+
+.boton {
+	display: inline-block;
+	padding: 14px 14px;
+	background-color: rgba(88,22,125,0.8);
+	color: #fff;
+	border-radius: 5px;
+}
+
+.boton:hover {
+	background-color: rgb(88,22,125);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+#contenedor {
+	margin: auto;
+}
+
+/* Header */
+
+#barra {
+	height: 99px;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 600;
+	background-color: rgba(0,0,0,0.76);
+}
+
+#marca {
+	float: left;
+	margin-left: 63px;
+}
+
+#marca h1 a {
+	font-size: 36px;
+	color: #fff;
+	letter-spacing: 10px;
+}
+
+#marca h1 a:hover, #menu ul li a:hover, .contactos ul li a:hover, .sociales ul li a:hover {
+	opacity: 0.5;
+}
+
+#menu {
+	float: right;
+	margin: 14px 63px 0 0;
+}
+
+#menu ul li {
+	font-size: 26px;
+	letter-spacing: 2px;
+	display: inline-block;
+	margin-left: 35px;
+}
+
+#menu ul li a {
+	color: #fff;
+}
+
+#opaco {
+	background-color: rgba(0,0,0,0.3);
+	height: 432px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+#header {
+	height: 631px;
+	margin-bottom: 80px;
+	background-image: url(../img/pan-cabecera.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+}
+
+#header p  {
+	font-size: 34px;
+	text-shadow: 0 1px 6px #000;
+	color: #fff;
+	line-height: 48px;
+}
+
+#header a.boton {
+	background-color: rgba(88,22,125,0.9);
+}
+
+#header a.boton:hover {
+	background-color: rgb(88,22,125);
+}
+
+/* Header de otras secciones */
+
+#header2 {
+	height: 245px;
+	margin-bottom: 80px;
+}
+
+#header2 h3 {
+	font-size: 50px;
+	font-weight: 800;
+	color: #454545;
+	text-align: center;
+}
+
+/* Contenido Inicio */
+
+.servicios {
+	max-width: 1366px;
+	width: 85%;
+	margin: auto;
+}
+
+.servicios .proizquierda img {
+	float: left;
+	margin-right: 44px;
+}
+
+.servicios .proderecha img {
+	float: right;
+	margin-left: 44px;
+}
+
+.cuadro {
+	text-align: right;
+	padding-top: 20px;
+}
+
+/* Sección Panes y Postres */
+
+.cuadro p {
+	display: inline-block;
+	color: #58167d;
+	font-size: 24px;
+}
+
+.cuadro form {
+	display: inline-block;
+}
+
+.cuadro form [type="text"] {
+	padding: 13px 14px;
+	border: 1px solid #b3b3b3;
+	color: #545454;
+	border-radius: 5px;
+	width: 135px;
+	margin: 0 5px 0 10px;
+	box-sizing: border-box;
+}
+
+.cuadro form [type="text"]:hover {
+	border-color: #58167d;
+}
+
+.cuadro form [type="text"]:focus {
+  outline: none;
+  border: 2px solid #58167d;
+	padding: 12px 13px;
+}
+
+.cuadro form [type="submit"] {
+	padding: 14px 14px;
+	background-color: rgba(88,22,125,0.8);
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	border-width: 0;
+}
+
+.cuadro form [type="submit"]:hover {
+	background-color: rgb(88,22,125);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.cuadro form [type="submit"]:focus {
+  outline: none;
+  padding: 14px 12px;
+	border: 2px solid #fff;
+}
+
+.proizquierda, .proderecha {
+	clear: both;
+	margin-bottom: 140px;
+}
+
+/* Sección Nosotros */
+
+.nosotros-contrata {
+	max-width: 1080px;
+	width: 75%;
+	margin: auto;
+}
+
+.objetivos {
+	width: 300px;
+	float: left;
+	margin-right: 90px;
+	margin-bottom: 60px;
+}
+
+.objetivos:last-child {
+	margin-right: 0;
+}
+
+.objetivos h2 {
+	text-align: center;
+}
+
+/* Sección Contrata */
+
+.puntos {
+  float: left;
+  width: 560px;
+}
+
+.puntos ul {
+  list-style: none;
+	margin-top: 2px;
+}
+
+.puntos ul li {
+	clear: both;
+	margin-bottom: 50px;
+	color: #545454;
+}
+
+.puntos ul .calendario {
+	margin-left: -7px;
+}
+
+.puntos ul li img {
+	float: left;
+	margin-right: 35px;
+}
+
+.puntos ul li:nth-child(2) img {
+	margin-left: 5px;
+}
+
+.formulario {
+  float: right;
+  width: 400px;
+  height: 420px;
+}
+
+.formulario form input[type="text"], .formulario form input[type="email"], .formulario form input[type="password"] {
+  padding: 13px 14px;
+	border: 1px solid #b3b3b3;
+	color: #545454;
+	border-radius: 5px;
+	width: 356px;
+	margin-bottom: 21px;
+	box-sizing: border-box;
+  display: block;
+}
+
+.formulario form input[type="password"] {
+  margin-bottom: 41px;
+}
+
+.formulario form input[type="text"]:hover, .formulario form input[type="email"]:hover, .formulario form input[type="password"]:hover {
+	border-color: #58167d;
+}
+
+.formulario form input[type="text"]:focus, .formulario form input[type="email"]:focus, .formulario form input[type="password"]:focus {
+  outline: none;
+  border: 2px solid #58167d;
+  padding: 12px 13px;
+}
+
+.formulario form input[type="submit"] {
+  padding: 14px;
+	background-color: rgba(88,22,125,0.8);
+	color: #fff;
+	border-radius: 5px;
+  width: 356px;
+	cursor: pointer;
+	border-width: 0;
+}
+
+.formulario form [type="submit"]:hover {
+	background-color: rgb(88,22,125);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.formulario form [type="submit"]:focus {
+  outline: none;
+  border: 2px solid #58167d;
+  padding: 12px 12px;
+  border: 2px solid #fff;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	height: 68px;
+	background-color: rgba(0,0,0,0.76);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 6px;
+}
+
+#footer ul {
+  padding-left: 0;
+}
+
+#footer ul li {
+	display: inline-block;
+}
+
+.contactos {
+	float: left;
+	margin-left: 63px;
+}
+
+.contactos ul li a {
+	color: #fff;
+	margin-right: 30px;
+}
+
+.contactos ul li a img {
+	margin-right: 10px;
+  vertical-align: -9px;
+}
+
+.sociales {
+	float: right;
+	margin-right: 63px;
+}
+
+.sociales ul li a img {
+	margin-left: 20px;
+}
